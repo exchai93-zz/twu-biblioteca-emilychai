@@ -2,13 +2,13 @@ package com.twu.biblioteca;
 
 import java.io.PrintStream;
 
-public class Biblioteca {
+public class Printer {
 
     private PrintStream printStream;
 
-    public Biblioteca(PrintStream printStream) {
+    public Printer(PrintStream printStream) {
         this.printStream = printStream;
-        printStream.println("Welcome to Biblioteca!");
+        printStream.println("Welcome to Printer!");
     }
 
     public void listBooks() {

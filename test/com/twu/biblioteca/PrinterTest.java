@@ -8,16 +8,16 @@ import java.io.PrintStream;
 
 import static org.junit.Assert.assertEquals;
 
-public class BibliotecaTest {
+public class PrinterTest {
 
     private ByteArrayOutputStream outContent;
-    private Biblioteca biblioteca;
+    private Printer biblioteca;
 
 
     @Before
     public void before() {
         outContent = new ByteArrayOutputStream();
-        biblioteca = new Biblioteca(new PrintStream(outContent));
+        biblioteca = new Printer(new PrintStream(outContent));
     }
 
 
@@ -25,7 +25,7 @@ public class BibliotecaTest {
     public void main() {
         String result = outContent.toString().trim();
 
-        assertEquals("Prints a welcome message", "Welcome to Biblioteca!", result);
+        assertEquals("Prints a welcome message", "Welcome to Printer!", result);
 
     }
 
