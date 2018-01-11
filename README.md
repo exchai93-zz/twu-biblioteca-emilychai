@@ -1,12 +1,12 @@
-Identifying Code Smells Assignment: Biblioteca #1
+## Identifying Code Smells Assignment: Biblioteca #1
 
-Business Case
+### Business Case
 The Bangalore Public Library has approached us to design and implement a Library Management System for them. Based on their requirements, we have decided to develop a new system named Biblioteca. Since the library has a large list of requirements, we will be making multiple releases of Biblioteca, with each release incrementally adding more functionality.
 In order to easily add more functionality in the future as well as maintain a high level of quality, Biblioteca will be built using a test driven approach.
 
 The requirements for the first release of Biblioteca are given below.
 
-User Stories
+### User Stories
 
 Welcome Message  - As a customer, I would like to see a welcome message when I start the application, so that I feel welcome and know that Biblioteca is available.
 List Books - As a customer, after the welcome message appears I would like to see a list of all library books, so that I can browse for books I might want to check-out. Assume that there is a pre-existing list of books. You don't need to support adding or removing books from the library.
